@@ -5,5 +5,6 @@ namespace CurrencyTrader.Contracts
     public interface ITradeDataProvider
     {
         IEnumerable<string> GetTradeData();
+
     }
 }
